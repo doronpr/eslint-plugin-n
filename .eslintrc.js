@@ -8,6 +8,7 @@
 // to make the ci passing.
 module.exports = {
     reportUnusedDisableDirectives: true,
+    ignorePatterns: ["converted-esm"],
     extends: [
         "eslint:recommended",
         "plugin:n/recommended",
